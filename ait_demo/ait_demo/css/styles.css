@@ -1,0 +1,80 @@
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+html{
+	background-image:url(../img/splash_bkgnd_patter.jpg);
+	max-height:900;
+	max-width:1440px;
+}
+
+body{
+	width:100%;
+	
+}
+
+#scoreboard{
+	background-repeat:no-repeat;
+	width:60%;
+	float:left;
+	margin-top:5%;
+	margin-bottom:5%;
+}
+
+#buttons{
+	background-color:#ccc;
+	float:left;
+	width:30%;
+	padding:3%;
+	margin-left:2%;
+	margin-top:10%;
+}
+
+#instructions, #start{
+	background-color:#ffc;
+	border:solid 2px #000;
+	border-radius:3px;
+	padding:5%;
+}
+
+#instructions{
+	margin-bottom:5%;
+}
+
+#show_instructions{
+	background-color:#fff;
+	clear:both;
+	width:80%;
+	margin:5% 10%;
+	padding:2%;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	position:fixed;
+}
+
+#show_instructions h3{
+	font-size:1.6em;
+}
+
+#close_panel{
+	background-color:#B1BBC9;
+	border-radius:1px;
+	width:20%;
+	font-size:1.2em;
+	padding:1%;
+}
+
+#close_panel a{	
+	color:#fff;
+}
+
+#close_panel:hover{
+	background-color:#6166BD;
+}
+
+
+
+
+
+
